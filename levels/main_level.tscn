@@ -152,6 +152,7 @@ skeleton = NodePath("../..")
 [node name="StaticBody3D" type="StaticBody3D" parent="Enviroment/Ground3"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Enviroment/Ground3/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0343122, -0.0249131, -0.00323629)
 shape = SubResource("ConcavePolygonShape3D_jdgad")
 
 [node name="Walls" type="Node3D" parent="Enviroment"]
